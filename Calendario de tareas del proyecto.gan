@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-05-12" view-index="0" gantt-divider-location="341" resource-divider-location="300" version="3.3.3322" locale="es_ES">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpc0" name="Ingles" width="42" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="58" order="1"/>
+        <field id="tpd3" name="Nombre" width="162" order="2"/>
+        <field id="tpd5" name="Fecha de fin" width="63" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ffff00 #ff3333 #66ff66 #ccffcc #990000 #00cccc #ff9999 #33ff99]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Ninguna">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2026" month="5" date="16" type="NEUTRAL" color="#ccffcc"><![CDATA[Excepción de fin de semana]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Ingles" type="custom" valuetype="int"/>
+        </taskproperties>
+        <task id="16" uid="e24a510382fd43e6af0dae2473ee47da" name="Ingles" color="#ffff00" meeting="false" start="2026-05-16" duration="52" complete="0" thirdDate="2026-05-16" thirdDate-constraint="1" expand="true">
+            <task id="18" uid="f6432a22a43147b6b65973e3b84d3fa4" name="Descripcion de la empresa en ingles" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="19" uid="6428d7a46b8b4d73adab2f1ccabef81e" name="Presentacion y objetivos en ingles" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="17" uid="42bfa4fe90f846bcb0262b8dfdf21d9e" name="CV" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+        </task>
+        <task id="20" uid="41f969c6ccc1477c95a7509a97e7dd91" name="Utu lab" color="#ff9999" meeting="false" start="2026-05-16" duration="52" complete="0" thirdDate="2026-05-16" thirdDate-constraint="1" expand="false">
+            <task id="21" uid="357f380714f541879ba64d7dd01b7526" name="Conformación oficial del grupo" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="22" uid="dfdae75e46f9421d8201436765765e03" name="Asignación de roles y metodología" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="23" uid="d8ff1d8282e544b188af5d73f8dab84e" name="Tablero Trello - estructura y carga" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+        </task>
+        <task id="24" uid="2688375eb1ed4060ba94575773583cbb" name="Sociologia" color="#00cccc" meeting="false" start="2026-05-16" duration="52" complete="0" expand="false">
+            <task id="25" uid="0ced12c2b522416eb2965b63ea60071c" name="Perfil de usuarios y analisis social" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="26" uid="971ee6569b8e4bacbc39426dd5fb5b82" name="Marco teorico y bibliografia APA" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+        </task>
+        <task id="28" uid="7c46298ef2e2492eb19d00b2bfb7aa9d" name="Programación Full Stack" color="#33ff99" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true">
+            <task id="29" uid="d6d8a07892c14c6d9526cea6648e7490" name="Diseño MER" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="30" uid="794e9e073f124b63b9e36f912f65a76c" name="Modelo relacional" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="31" uid="e9745fb1d8e3436c86cbbcb3fb4dd956" name="WireFrames" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="32" uid="f507a41f2fed49f0934f44e4a086eafd" name="Estructura base HTML" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+        </task>
+        <task id="34" uid="8daca8d9d344462bb83966d33b3b2f14" name="Ing de software" color="#ccffcc" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true">
+            <task id="36" uid="3cb35439873744ccba6bebee889c32b5" name="Diagramas de Gantt y PERT" color="#ffff00" meeting="false" start="2026-05-16" duration="52" complete="0" thirdDate="2026-05-16" thirdDate-constraint="1" expand="true"/>
+            <task id="37" uid="946a1ead514444c4907f98794112a060" name="Estudio de factibilidad" color="#8cb6ce" meeting="false" start="2026-05-16" duration="52" complete="0" thirdDate="2026-05-16" thirdDate-constraint="1" expand="true">
+                <task id="35" uid="1dc8cdff6945437e9aea237e85d69283" name="Documento SRS" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="38" uid="8e3ab2cf23e649c0838969b41685ecfd" name="Adm de sistemas operativos" color="#990000" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true">
+            <task id="39" uid="3fa90faea57646148b85ff88df33a974" name="Instalación Ubuntu Server + manual" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="40" uid="395b2df546484b75820707194113014e" name="Scripts bash ABML usuarios y grupos" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="41" uid="4060ef06c6164982afc4abb97aa9b35b" name="Variables de entorno, alias y manual" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+            <task id="42" uid="d0912379e0b9418997197dba6f680a7d" name="Máquina virutal .OVA lista para entregar" meeting="false" start="2026-05-16" duration="52" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
